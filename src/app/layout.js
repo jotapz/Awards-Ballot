@@ -20,10 +20,11 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="pt">
-      <body className="min-h-screen">
+      <body className={`${geistSans.variable} ${geistMono.variable} h-screen flex flex-col`}>
         <HeaderComponent />
-        <main className="p-6">{children}</main>
+        <main className="flex-grow bg-[#000000] p-6">{children}</main>
       </body>
+
     </html>
   );
 }

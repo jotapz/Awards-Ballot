@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const HomePage = () => {
     return (
-        <div>
+        <div className="text-white">
             HOME
         </div>
     );

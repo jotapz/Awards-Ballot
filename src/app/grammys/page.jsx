@@ -1,6 +1,6 @@
 const Page = () => {
     return (
-        <div>
+        <div className="text-white">
         grammys
         </div>
     );
