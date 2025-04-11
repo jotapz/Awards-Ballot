@@ -2,14 +2,19 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
+import Image from 'next/image';
+import GrammyIcon from '../images/Grammys.png';
+import GoldenGlobeIcon from '../images/goldenglobe.png';
+import OscarIcon from '../images/Oscar.png';
+import LogoIcon from '../images/logo3.png';
 
 const HeaderComponent = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     return (
         <header className="bg-[#C9A227] sticky top-0 z-50">
             <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
-                <Link href="/home" className="text-white font-bold text-xl">
-                    LOGO
+                <Link href="/home">
+                    <Image src={LogoIcon} alt="Logo" width={300} height={10} />
                 </Link>
                 <div className="flex items-center space-x-4">
                     <button
@@ -24,9 +29,15 @@ const HeaderComponent = () => {
                         </svg>
                     </button>
                     <nav className="hidden md:flex space-x-6">
-                        <Link href="/grammys" className="text-white hover:underline">Grammys</Link>
-                        <Link href="/golden-globes" className="text-white hover:underline">Golden Globes</Link>
-                        <Link href="/oscar" className="text-white hover:underline">Oscar</Link>
+                        <Link href="/golden-globes">
+                            <Image src={GoldenGlobeIcon} alt="Golden Globes" width={50} height={50} />
+                        </Link>
+                        <Link href="/grammys">
+                            <Image src={GrammyIcon} alt="Grammys" width={50} height={50} />
+                        </Link>
+                        <Link href="/oscar">
+                            <Image src={OscarIcon} alt="Oscar" width={50} height={50} />
+                        </Link>
                     </nav>
                 </div>
             </div>
