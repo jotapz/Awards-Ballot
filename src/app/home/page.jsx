@@ -17,18 +17,15 @@ const HomePage = () => {
                 <span className="flex items-center justify-center text-[#3A3535] text-l font-mono pt-20">
                     Escolha abaixo qual premiação você gostaria de votar:
                 </span>
-                <div>
+                <div className="flex justify-center space-x-4 py-10">
                 <button className="px-6 py-2 bg-[#C9A227] rounded-lg hover:bg-blue-700 transition-colors font-bold text-[#3A3535]">
-                    <Image src={GoldenGlobeIcon} alt="Golden Globes" width={50} height={50} />
-                    <span>teste</span>
+                <span className="flex items-center"><Image src={GoldenGlobeIcon} alt="Golden Globes" width={50} height={50} />GOLDEN GLOBES</span>
                 </button>
                 <button className="px-6 py-2 bg-[#C9A227] rounded-lg hover:bg-blue-700 transition-colors font-bold text-[#3A3535]">
-                    <Image src={GrammyIcon} alt="Grammys" width={50} height={50} />
-                    <span>teste</span>
+                    <span className="flex items-center pr-3"><Image src={GrammyIcon} alt="Grammys" width={50} height={50}/>GRAMMYS</span>
                 </button>
                 <button className="px-6 py-2 bg-[#C9A227] rounded-lg hover:bg-blue-700 transition-colors font-bold text-[#3A3535]">
-                    <Image src={OscarIcon} alt="Oscar" width={50} height={50} />
-                    <span>teste</span>
+                    <span className="flex items-center pr-3"><Image src={OscarIcon} alt="Oscar" width={50} height={50} />OSCAR</span>
                 </button>
                 </div>
             </div>
