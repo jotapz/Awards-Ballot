@@ -3,7 +3,6 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import Image from 'next/image';
-import LogoIcon from '../images/logo3.png';
 import Estatueta from '../images/estatueta.svg';
 import Gramofone from '../images/gramofone.svg';
 import GoldenGlobe from '../images/golden-globe.svg';
@@ -14,7 +13,8 @@ const HeaderComponent = () => {
         <header className="bg-[#C9A227] sticky top-0 z-50">
             <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
                 <Link href="/home">
-                    <Image src={LogoIcon} alt="Logo" width={300} height={10} />
+                    {/* <Image src={LogoIcon} alt="Logo" width={300} height={10} /> */}
+                    AWARDS BALLOT
                 </Link>
                 <div className="flex items-center space-x-4">
                     <button
