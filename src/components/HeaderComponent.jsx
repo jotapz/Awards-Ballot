@@ -3,10 +3,9 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import Image from 'next/image';
-import GrammyIcon from '../images/Grammys.png';
-import GoldenGlobeIcon from '../images/goldenglobe.png';
-import OscarIcon from '../images/Oscar.png';
-import LogoIcon from '../images/logo3.png';
+import Estatueta from '../images/estatueta.svg';
+import Gramofone from '../images/gramofone.svg';
+import GoldenGlobe from '../images/golden-globe.svg';
 
 const HeaderComponent = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -14,7 +13,8 @@ const HeaderComponent = () => {
         <header className="bg-[#C9A227] sticky top-0 z-50">
             <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
                 <Link href="/home">
-                    <Image src={LogoIcon} alt="Logo" width={300} height={10} />
+                    {/* <Image src={LogoIcon} alt="Logo" width={300} height={10} /> */}
+                    AWARDS BALLOT
                 </Link>
                 <div className="flex items-center space-x-4">
                     <button
@@ -30,13 +30,13 @@ const HeaderComponent = () => {
                     </button>
                     <nav className="hidden md:flex space-x-6">
                         <Link href="/golden-globes">
-                            <Image src={GoldenGlobeIcon} alt="Golden Globes" width={50} height={50} />
+                            <Image src={GoldenGlobe} alt="Golden Globes" width={30} height={30} />
                         </Link>
                         <Link href="/grammys">
-                            <Image src={GrammyIcon} alt="Grammys" width={50} height={50} />
+                            <Image src={Gramofone} alt="Grammys" width={30} height={30} />
                         </Link>
                         <Link href="/oscar">
-                            <Image src={OscarIcon} alt="Oscar" width={50} height={50} />
+                            <Image src={Estatueta} alt="Oscar" width={30} height={30} />
                         </Link>
                     </nav>
                 </div>

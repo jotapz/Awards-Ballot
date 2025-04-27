@@ -1,8 +1,9 @@
 import Link from "next/link";
 import Image from 'next/image';
-import GoldenGlobeIcon from '../../images/goldenglobe.png';
-import GrammyIcon from '../../images/Grammys.png';
-import OscarIcon from '../../images/Oscar.png';
+import Estatueta from '../../images/estatueta.svg';
+import Gramofone from '../../images/gramofone.svg';
+import GoldenGlobe from '../../images/golden-globe.svg';
+import { Button } from "@/components/ui/button";
 
 const HomePage = () => {
     return (
@@ -18,15 +19,24 @@ const HomePage = () => {
                     Escolha abaixo qual premiação você gostaria de votar:
                 </span>
                 <div className="flex justify-center space-x-4 py-10">
-                <button className="px-6 py-2 bg-[#C9A227] rounded-lg hover:bg-blue-700 transition-colors font-bold text-[#3A3535]">
-                <span className="flex items-center"><Image src={GoldenGlobeIcon} alt="Golden Globes" width={50} height={50} />GOLDEN GLOBES</span>
-                </button>
-                <button className="px-6 py-2 bg-[#C9A227] rounded-lg hover:bg-blue-700 transition-colors font-bold text-[#3A3535]">
-                    <span className="flex items-center pr-3"><Image src={GrammyIcon} alt="Grammys" width={50} height={50}/>GRAMMYS</span>
-                </button>
-                <button className="px-6 py-2 bg-[#C9A227] rounded-lg hover:bg-blue-700 transition-colors font-bold text-[#3A3535]">
-                    <span className="flex items-center pr-3"><Image src={OscarIcon} alt="Oscar" width={50} height={50} />OSCAR</span>
-                </button>
+                    <Button>
+                        <Link href="/golden-globes" className="flex items-center">
+                            <Image src={GoldenGlobe} alt="Golden Globes" width={20} height={20} />
+                            GOLDEN GLOBES
+                        </Link>
+                    </Button>
+                    <Button>
+                        <Link href="/grammys" className="flex items-center">
+                            <Image src={Gramofone} alt="Gramofone" width={20} height={20} />
+                            GRAMMYS
+                        </Link>
+                    </Button>
+                    <Button>
+                        <Link href="/oscar" className="flex items-center">
+                            <Image src={Estatueta} alt="Estatueta" width={20} height={20} />
+                            OSCAR
+                        </Link>
+                    </Button>
                 </div>
             </div>
         </div>
