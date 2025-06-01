@@ -1,4 +1,4 @@
-const categories = {
+export const categoriesData = {
     awardsName: "Grammy 2026",
     categories: [
       {

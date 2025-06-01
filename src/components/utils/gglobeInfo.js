@@ -1,5 +1,5 @@
-const categories = {
-    awardsName: "Grammy 2026",
+export const categoriesData = {
+    awardsName: "Golden Globes 2026",
     categories: [
       {
         // MELHOR FILME DRAMA
