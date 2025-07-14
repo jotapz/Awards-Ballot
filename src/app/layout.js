@@ -2,6 +2,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import HeaderComponent from "@/components/HeaderComponent";
 import FooterComponent from "@/components/FooterComponent";
 import "./globals.css";
+import { VotacaoProvider } from "@/context/VotacaoContext";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -22,9 +23,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="pt">
       <body className={`${geistSans.variable} ${geistMono.variable} h-screen flex flex-col`}>
-        <HeaderComponent />
-        <main className="flex-grow bg-[#000000]">{children}</main>
-        <FooterComponent/>
+        <VotacaoProvider>
+          <HeaderComponent />
+          <main className="flex-grow bg-[#000000]">{children}</main>
+          <FooterComponent />
+        </VotacaoProvider>
       </body>
 
     </html>

@@ -6,6 +6,7 @@ import Image from 'next/image';
 import Estatueta from '../images/estatueta.svg';
 import Gramofone from '../images/gramofone.svg';
 import GoldenGlobe from '../images/golden-globe.svg';
+import LogoIcon from '../images/logo-awards.png';
 
 const HeaderComponent = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -13,8 +14,7 @@ const HeaderComponent = () => {
         <header className="bg-[#C9A227] sticky top-0 z-50">
             <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
                 <Link href="/home">
-                    {/* <Image src={LogoIcon} alt="Logo" width={300} height={10} /> */}
-                    AWARDS BALLOT
+                    <Image src={LogoIcon} alt="Logo" width={80} height={10} />
                 </Link>
                 <div className="flex items-center space-x-4">
                     <button

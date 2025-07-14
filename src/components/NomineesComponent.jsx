@@ -2,16 +2,16 @@
 
 import { Checkbox } from "@/components/ui/checkbox"
 
-const NomineesComponent = () => {
+const NomineesComponent = ({ nominees }) => {
     return (
         <div className="items-top flex space-x-2">
             <Checkbox/>
             <div className="leading-none">
                 <label className="text-sm font-medium leading-none peer-disabled:cursor-not-allowed peer-disabled:opacity-70">
-                    Accept terms and conditions
+                    {nominees.name}
                 </label>
                 <p className="text-sm text-muted-foreground">
-                    You agree to our Terms of Service and Privacy Policy.
+                    {nominees.description}
                 </p>
             </div>
         </div>
