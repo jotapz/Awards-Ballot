@@ -12,7 +12,7 @@ export const categoriesData = {
           { name: "A", description: "A" },
           { name: "A", description: "A" }
         ],
-        lastWinnerDescription: 'O último vencedor dessa catégoria foi Cowboy Carter - Beyoncé'
+        lastWinnerDescription: 'O último vencedor dessa categoria foi Cowboy Carter - Beyoncé'
       },
       {
         // GRAVAÇAO DO ANO
@@ -25,7 +25,7 @@ export const categoriesData = {
           { name: "A", description: "A" },
           { name: "A", description: "A" }
         ],
-        lastWinnerDescription: 'O último vencedor dessa catégoria foi Not Like Us - Kendrick Lamar'
+        lastWinnerDescription: 'O último vencedor dessa categoria foi Not Like Us - Kendrick Lamar'
       },
       {
         // CANÇÃO DO ANO
@@ -38,7 +38,7 @@ export const categoriesData = {
           { name: "A", description: "A" },
           { name: "A", description: "A" }
         ],
-        lastWinnerDescription: 'O último vencedor dessa catégoria foi Not Like Us - Kendrick Lamar'
+        lastWinnerDescription: 'O último vencedor dessa categoria foi Not Like Us - Kendrick Lamar'
       },
       {
         // ARTISTA REVELAÇÃO
@@ -51,7 +51,7 @@ export const categoriesData = {
           { name: "A", description: "A" },
           { name: "A", description: "A" }
         ],
-        lastWinnerDescription: 'O último vencedor dessa catégoria foi Chappell Roan'
+        lastWinnerDescription: 'O último vencedor dessa categoria foi Chappell Roan'
       },
       {
         // MELHOR ALBUM VOCAL DE POP
@@ -64,7 +64,7 @@ export const categoriesData = {
           { name: "A", description: "A" },
           { name: "A", description: "A" }
         ],
-        lastWinnerDescription: 'O último vencedor dessa catégoria foi Short n Sweet - Sabrina Carpenter'
+        lastWinnerDescription: 'O último vencedor dessa categoria foi Short n Sweet - Sabrina Carpenter'
       },
       {
         // MELHOR PERFORMANCE POP SOLO
@@ -77,7 +77,7 @@ export const categoriesData = {
           { name: "A", description: "A" },
           { name: "A", description: "A" }
         ],
-        lastWinnerDescription: 'O último vencedor dessa catégoria foi Espresso - Sabrina Carpenter'
+        lastWinnerDescription: 'O último vencedor dessa categoria foi Espresso - Sabrina Carpenter'
       },
       {
         // MELHOR PERFORMANCE POP EM DUPLA OU GRUPO
@@ -90,7 +90,7 @@ export const categoriesData = {
           { name: "A", description: "A" },
           { name: "A", description: "A" }
         ],
-        lastWinnerDescription: 'O último vencedor dessa catégoria foi Die With a Smile - Lady Gaga & Bruno Mars'
+        lastWinnerDescription: 'O último vencedor dessa categoria foi Die With a Smile - Lady Gaga & Bruno Mars'
       },
       {
         // MELHOR ALBÚM DE COUNTRY
@@ -103,7 +103,7 @@ export const categoriesData = {
           { name: "A", description: "A" },
           { name: "A", description: "A" }
         ],
-        lastWinnerDescription: 'O último vencedor dessa catégoria foi Cowboy Carter – Beyoncé'
+        lastWinnerDescription: 'O último vencedor dessa categoria foi Cowboy Carter – Beyoncé'
       },
       {
         // MELHOR PPERFORMANCE COUNTRY DUO GRUPO
@@ -116,7 +116,7 @@ export const categoriesData = {
           { name: "A", description: "A" },
           { name: "A", description: "A" }
         ],
-        lastWinnerDescription: 'O último vencedor dessa catégoria foi II Most Wanted – Beyoncé & Miley Cyrus'
+        lastWinnerDescription: 'O último vencedor dessa categoria foi II Most Wanted – Beyoncé & Miley Cyrus'
       },
       {
         // MELHOR Álbum de Dance/Eletrônica
@@ -129,7 +129,7 @@ export const categoriesData = {
           { name: "A", description: "A" },
           { name: "A", description: "A" }
         ],
-        lastWinnerDescription: 'O último vencedor dessa catégoria foi Brat – Charli XCX'
+        lastWinnerDescription: 'O último vencedor dessa categoria foi Brat – Charli XCX'
       },
       {
         // MELHOR CANÇAO DE RAP
@@ -142,7 +142,7 @@ export const categoriesData = {
           { name: "A", description: "A" },
           { name: "A", description: "A" }
         ],
-        lastWinnerDescription: 'O último vencedor dessa catégoria foi Not Like Us – Kendrick Lamar'
+        lastWinnerDescription: 'O último vencedor dessa categoria foi Not Like Us – Kendrick Lamar'
       },
       {
         // MELHOR PERFORMANCE RAP
@@ -155,7 +155,7 @@ export const categoriesData = {
           { name: "A", description: "A" },
           { name: "A", description: "A" }
         ],
-        lastWinnerDescription: 'O último vencedor dessa catégoria foi Not Like Us – Kendrick Lamar'
+        lastWinnerDescription: 'O último vencedor dessa categoria foi Not Like Us – Kendrick Lamar'
       },
       {
         // MELHOR PERFORMANCE RAP
@@ -168,7 +168,7 @@ export const categoriesData = {
           { name: "A", description: "A" },
           { name: "A", description: "A" }
         ],
-        lastWinnerDescription: 'O último vencedor dessa catégoria foi Not Like Us – Kendrick Lamar'
+        lastWinnerDescription: 'O último vencedor dessa categoria foi Not Like Us – Kendrick Lamar'
       },
       {
         // MELHOR ALBUM POP LATINO
@@ -181,7 +181,7 @@ export const categoriesData = {
           { name: "A", description: "A" },
           { name: "A", description: "A" }
         ],
-        lastWinnerDescription: 'O último vencedor dessa catégoria foi Las Mujeres Ya No Lloran – Shakira'
+        lastWinnerDescription: 'O último vencedor dessa categoria foi Las Mujeres Ya No Lloran – Shakira'
       },
       {
         // MELHOR ALBUM TEATRO MUSICAL
@@ -194,7 +194,7 @@ export const categoriesData = {
           { name: "A", description: "A" },
           { name: "A", description: "A" }
         ],
-        lastWinnerDescription: 'O último vencedor dessa catégoria foi Hells Kitchen'
+        lastWinnerDescription: 'O último vencedor dessa categoria foi Hells Kitchen'
       },
       {
         // MELHOR VIDEO MUSICAL
@@ -207,7 +207,7 @@ export const categoriesData = {
           { name: "A", description: "A" },
           { name: "A", description: "A" }
         ],
-        lastWinnerDescription: 'O último vencedor dessa catégoria foi Fortnight – Taylor Swift feat. Post Malone'
+        lastWinnerDescription: 'O último vencedor dessa categoria foi Fortnight – Taylor Swift feat. Post Malone'
       },
     ]
 };

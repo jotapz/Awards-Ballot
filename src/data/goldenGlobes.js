@@ -12,7 +12,7 @@ export const categoriesData = {
           { name: "A", description: "A" },
           { name: "A", description: "A" }
         ],
-        lastWinnerDescription: 'O último vencedor dessa catégoria foi The Brutalist (A24)'
+        lastWinnerDescription: 'O último vencedor dessa categoria foi The Brutalist (A24)'
       },
       {
         // MELHOR FILME MUSICAL OU COMEDIA
@@ -25,7 +25,7 @@ export const categoriesData = {
           { name: "A", description: "A" },
           { name: "A", description: "A" }
         ],
-        lastWinnerDescription: 'O último vencedor dessa catégoria foi Emilia Pérez (Netflix)'
+        lastWinnerDescription: 'O último vencedor dessa categoria foi Emilia Pérez (Netflix)'
       },
       {
         // MELHOR ATRIZ EM FILME - DRAMA
@@ -38,7 +38,7 @@ export const categoriesData = {
           { name: "A", description: "A" },
           { name: "A", description: "A" }
         ],
-        lastWinnerDescription: 'O último vencedor dessa catégoria foi Fernanda Torres – Im Still Here'
+        lastWinnerDescription: 'O último vencedor dessa categoria foi Fernanda Torres – Im Still Here'
       },
       {
         // MELHOR ATOR EM FILME - DRAMA
@@ -51,7 +51,7 @@ export const categoriesData = {
           { name: "A", description: "A" },
           { name: "A", description: "A" }
         ],
-        lastWinnerDescription: 'O último vencedor dessa catégoria foi Adrien Brody – The Brutalist'
+        lastWinnerDescription: 'O último vencedor dessa categoria foi Adrien Brody – The Brutalist'
       },
       {
         // MELHOR ATRIZ EM FILME - MUSICAL OU COMÉDIA
@@ -64,7 +64,7 @@ export const categoriesData = {
           { name: "A", description: "A" },
           { name: "A", description: "A" }
         ],
-        lastWinnerDescription: 'O último vencedor dessa catégoria foi Demi Moore – The Substance'
+        lastWinnerDescription: 'O último vencedor dessa categoria foi Demi Moore – The Substance'
       },
       {
         // MELHOR ATOR EM FILME - MUSICAL OU COMÉDIA
@@ -77,7 +77,7 @@ export const categoriesData = {
           { name: "A", description: "A" },
           { name: "A", description: "A" }
         ],
-        lastWinnerDescription: 'O último vencedor dessa catégoria foi Sebastian Stan – A Different Man'
+        lastWinnerDescription: 'O último vencedor dessa categoria foi Sebastian Stan – A Different Man'
       },
       {
         // MELHOR ATRIZ COADJUVANTE EM FILME
@@ -90,7 +90,7 @@ export const categoriesData = {
           { name: "A", description: "A" },
           { name: "A", description: "A" }
         ],
-        lastWinnerDescription: 'O último vencedor dessa catégoria foi Zoe Saldaña – Emilia Pérez'
+        lastWinnerDescription: 'O último vencedor dessa categoria foi Zoe Saldaña – Emilia Pérez'
       },
       {
         // MELHOR ATOR COADJUVANTE EM FILME
@@ -103,7 +103,7 @@ export const categoriesData = {
           { name: "A", description: "A" },
           { name: "A", description: "A" }
         ],
-        lastWinnerDescription: 'O último vencedor dessa catégoria foi Kieran Culkin – A Real Pain'
+        lastWinnerDescription: 'O último vencedor dessa categoria foi Kieran Culkin – A Real Pain'
       },
       {
         // MELHOR DIREÇÃO EM FILME
@@ -116,7 +116,7 @@ export const categoriesData = {
           { name: "A", description: "A" },
           { name: "A", description: "A" }
         ],
-        lastWinnerDescription: 'O último vencedor dessa catégoria foi Brady Corbet – The Brutalist'
+        lastWinnerDescription: 'O último vencedor dessa categoria foi Brady Corbet – The Brutalist'
       },
       {
         // MELHOR ROTEIRO EM FILME
@@ -129,7 +129,7 @@ export const categoriesData = {
           { name: "A", description: "A" },
           { name: "A", description: "A" }
         ],
-        lastWinnerDescription: 'O último vencedor dessa catégoria foi Jacques Audiard – Emilia Pérez'
+        lastWinnerDescription: 'O último vencedor dessa categoria foi Jacques Audiard – Emilia Pérez'
       },
       {
         // MELHOR TRILHA SONORA ORIGINAL
@@ -142,7 +142,7 @@ export const categoriesData = {
           { name: "A", description: "A" },
           { name: "A", description: "A" }
         ],
-        lastWinnerDescription: 'O último vencedor dessa catégoria foi Clément Ducol & Camille – Emilia Pérez'
+        lastWinnerDescription: 'O último vencedor dessa categoria foi Clément Ducol & Camille – Emilia Pérez'
       },
       {
         // MELHOR CANÇÃO ORIGINAL
@@ -155,7 +155,7 @@ export const categoriesData = {
           { name: "A", description: "A" },
           { name: "A", description: "A" }
         ],
-        lastWinnerDescription: 'O último vencedor dessa catégoria foi “El Mal” – Emilia Pérez'
+        lastWinnerDescription: 'O último vencedor dessa categoria foi “El Mal” – Emilia Pérez'
       },
       {
         // MELHOR FILME EM LINGUA ESTRANGEIRA
@@ -168,7 +168,7 @@ export const categoriesData = {
           { name: "A", description: "A" },
           { name: "A", description: "A" }
         ],
-        lastWinnerDescription: 'O último vencedor dessa catégoria foi Emilia Pérez (França)'
+        lastWinnerDescription: 'O último vencedor dessa categoria foi Emilia Pérez (França)'
       },
       {
         // MELHOR FILME DE ANIMAÇÃOO
@@ -181,7 +181,7 @@ export const categoriesData = {
           { name: "A", description: "A" },
           { name: "A", description: "A" }
         ],
-        lastWinnerDescription: 'O último vencedor dessa catégoria foi Flow'
+        lastWinnerDescription: 'O último vencedor dessa categoria foi Flow'
       },
       {
         // MELHOR SERIE DE TV - DRAMA
@@ -194,7 +194,7 @@ export const categoriesData = {
           { name: "A", description: "A" },
           { name: "A", description: "A" }
         ],
-        lastWinnerDescription: 'O último vencedor dessa catégoria foi Shōgun'
+        lastWinnerDescription: 'O último vencedor dessa categoria foi Shōgun'
       },
       {
         // MELHOR SERIE DE TV - MUSICAL OU COMEDIA
@@ -207,7 +207,7 @@ export const categoriesData = {
           { name: "A", description: "A" },
           { name: "A", description: "A" }
         ],
-        lastWinnerDescription: 'O último vencedor dessa catégoria foi Hacks'
+        lastWinnerDescription: 'O último vencedor dessa categoria foi Hacks'
       },
       {
         // MELHOR ATRIZ EM SERIE DE TV - DRAMA
@@ -220,7 +220,7 @@ export const categoriesData = {
           { name: "A", description: "A" },
           { name: "A", description: "A" }
         ],
-        lastWinnerDescription: 'O último vencedor dessa catégoria foi Anna Sawai – Shōgun'
+        lastWinnerDescription: 'O último vencedor dessa categoria foi Anna Sawai – Shōgun'
       },
       {
         // MELHOR ATOR EM SERIE DE TV - DRAMA
@@ -233,7 +233,7 @@ export const categoriesData = {
           { name: "A", description: "A" },
           { name: "A", description: "A" }
         ],
-        lastWinnerDescription: 'O último vencedor dessa catégoria foi Hiroyuki Sanada – Shōgun'
+        lastWinnerDescription: 'O último vencedor dessa categoria foi Hiroyuki Sanada – Shōgun'
       },
       {
         // MELHOR ATRIZ EM SERIE DE TV - MUSICAL OU COMEDIA
@@ -246,7 +246,7 @@ export const categoriesData = {
           { name: "A", description: "A" },
           { name: "A", description: "A" }
         ],
-        lastWinnerDescription: 'O último vencedor dessa catégoria foi Jean Smart – Hacks'
+        lastWinnerDescription: 'O último vencedor dessa categoria foi Jean Smart – Hacks'
       },
       {
         // MELHOR ATOR EM SERIE DE TV - MUSICAL OU COMEDIA
@@ -259,7 +259,7 @@ export const categoriesData = {
           { name: "A", description: "A" },
           { name: "A", description: "A" }
         ],
-        lastWinnerDescription: 'O último vencedor dessa catégoria foi Jeremy Allen White – The Bear'
+        lastWinnerDescription: 'O último vencedor dessa categoria foi Jeremy Allen White – The Bear'
       },
       {
         // MELHOR Minissérie, Série Antológica ou Filme para TV
@@ -272,7 +272,7 @@ export const categoriesData = {
           { name: "A", description: "A" },
           { name: "A", description: "A" }
         ],
-        lastWinnerDescription: 'O último vencedor dessa catégoria foi Beef'
+        lastWinnerDescription: 'O último vencedor dessa categoria foi Beef'
       },
       {
         // MELHOR Atriz em Minissérie, Série Antológica ou Filme para TV
@@ -285,7 +285,7 @@ export const categoriesData = {
           { name: "A", description: "A" },
           { name: "A", description: "A" }
         ],
-        lastWinnerDescription: 'O último vencedor dessa catégoria foi Ali Wong – Single Lady'
+        lastWinnerDescription: 'O último vencedor dessa categoria foi Ali Wong – Single Lady'
       },
       {
         // MELHOR Ator em Minissérie, Série Antológica ou Filme para TV
@@ -298,7 +298,7 @@ export const categoriesData = {
           { name: "A", description: "A" },
           { name: "A", description: "A" }
         ],
-        lastWinnerDescription: 'O último vencedor dessa catégoria foi Steven Yeun – Beef'
+        lastWinnerDescription: 'O último vencedor dessa categoria foi Steven Yeun – Beef'
       },
     ]
 }
