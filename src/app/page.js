@@ -1,8 +1,5 @@
-import Image from "next/image";
-import HomePage from "./home/page";
+import HomeHero from "@/features/home/HomeHero";
 
 export default function Home() {
-  return (
-    <HomePage />
-  );
+  return <HomeHero />;
 }

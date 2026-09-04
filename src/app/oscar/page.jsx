@@ -1,23 +1,5 @@
-"use client"
-import TemplateVotacao from "@/components/TemplateVotacao/TemplateVotacao";
-import { categoriesData } from "@/components/utils/oscarInfo";
+import AwardVoting from "@/features/voting/AwardVoting";
 
-const Page = () => {
-    const categorias = categoriesData.categories;
-    const { index, category, next, prev } = useCategoryNavigation(categorias);
-    return (
-        <div className="text-white">
-            <TemplateVotacao
-                disabledNext={index === categorias.length - 1}
-                disabledPrevious={index === 0}
-                onClickNext={next}
-                onClickPrevious={prev}
-                categories={{
-                    ...category,
-                    awardsName: categoriesData.awardsName
-                }}
-            />
-        </div>
-    );
-}
+const Page = () => <AwardVoting award="oscar" />;
+
 export default Page;
