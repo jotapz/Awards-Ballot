@@ -25,15 +25,6 @@ Para cadastrar os indicados pelo painel em vez de editar o código:
    `SUPABASE_SERVICE_ROLE_KEY` e `ADMIN_PASSWORD`.
 3. Reinicie o servidor, acesse `/admin` e salve.
 
-## Páginas
-
-| Rota | O que faz |
-| --- | --- |
-| `/` | Escolha da premiação |
-| `/oscar` `/grammys` `/golden-globes` | Votação categoria por categoria |
-| `/template` | Bolão pronto + download em PNG |
-| `/admin` | Cadastro dos indicados do ano |
-
 ---
 
 <sub>Coded by Eduarda Saleth, Julia Mattos e João Franco</sub>
