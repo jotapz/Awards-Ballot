@@ -3,7 +3,11 @@
 Vote nos indicados do **Oscar**, **Grammy** e **Golden Globes**, escolha um vencedor por
 categoria e baixe o seu bolão preenchido em PNG.
 
+[![Acessar Projeto](https://img.shields.io/badge/Acessar%20Projeto-Vercel-black?style=for-the-badge&logo=vercel)](https://awards-ballot-seven.vercel.app/grammys)
+
 Next.js 15 · React 19 · Tailwind v4 · Framer Motion · Supabase
+
+
 
 ## Rodando
 
